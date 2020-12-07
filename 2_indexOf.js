@@ -56,3 +56,10 @@ let height = 5
 const map = triangleArea.map(x => (x * height) /2 )
 
 console.log(map)
+
+//filter
+const skiResort = ["Alagna", "Chamonix", "Sankt Anton", "Sölden", "Zermatt"]
+
+const result = skiResort.filter(skiResort => skiResort.length > 7)
+
+console.log(result)
