@@ -23,10 +23,17 @@ console.log(jdm.includes("C63"))
 
 
 //push_pop
-
 const countries = ["Sweden", "Ecuador", "Russia", "Kazakstan"]
 
 let last = countries.pop()
 let first = countries.push("Indonesia")
 
 console.log(countries)
+
+
+//some
+const numbers = [3, 5, 9, 12, 25, 4]
+
+const findNumber = numbers.find(element => element > 15)
+
+console.log(findNumber);
