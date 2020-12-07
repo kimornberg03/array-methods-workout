@@ -37,3 +37,13 @@ const numbers = [3, 5, 9, 12, 25, 4]
 const findNumber = numbers.find(element => element > 15)
 
 console.log(findNumber);
+
+
+
+
+//every
+const lower = (currentValue) => currentValue < 5
+
+const numbers1 = [2, 5, 9, 1, 3]
+
+        console.log(numbers1.every(lower))
