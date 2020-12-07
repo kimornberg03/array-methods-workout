@@ -47,3 +47,12 @@ const lower = (currentValue) => currentValue < 5
 const numbers1 = [2, 5, 9, 1, 3]
 
         console.log(numbers1.every(lower))
+
+
+//map
+const triangleArea = [5, 2, 9, 25, 2500]
+let height = 5
+
+const map = triangleArea.map(x => (x * height) /2 )
+
+console.log(map)
