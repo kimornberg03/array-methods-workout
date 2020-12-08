@@ -68,3 +68,21 @@ console.log(result)
 const names = ["Elias", "Max", "Julia", "Lukas"]
 
 names.forEach(x => console.log(x))
+
+//Sort
+const numbers2 = [5, 7, 3, 4, 9, 1]
+numbers2.sort()
+console.log(numbers2)
+
+const filmRate = ["8/10 dark knight", "9/10 Tokyo Drift", "4/10 Death note"]
+
+console.log(filmRate)
+
+//Fill
+const num = [5, 2 , 3, 1, 7, 8, 9]
+
+console.log(num.fill(2, 1, 4));
+
+console.log(num.fill(0, 3));
+
+console.log(num.fill(9));
