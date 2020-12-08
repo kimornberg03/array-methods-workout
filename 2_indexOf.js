@@ -63,3 +63,8 @@ const skiResort = ["Alagna", "Chamonix", "Sankt Anton", "Sölden", "Zermatt"]
 const result = skiResort.filter(skiResort => skiResort.length > 7)
 
 console.log(result)
+
+//forEach
+const names = ["Elias", "Max", "Julia", "Lukas"]
+
+names.forEach(x => console.log(x))
